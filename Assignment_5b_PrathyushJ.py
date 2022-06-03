@@ -759,20 +759,3 @@ def run_XOR():
 run_iris()
 run_sin()
 run_XOR()
-
-"""
-
-Sample run:
-
-  File "C:\Users\prath\PycharmProjects\Assignment_5b_PrathyushJ\Assignment_5b_PrathyushJ.py", line 759, in <module>
-    run_iris()
-  File "C:\Users\prath\PycharmProjects\Assignment_5b_PrathyushJ\Assignment_5b_PrathyushJ.py", line 632, in run_iris
-    network.add_hidden_layer(3)
-  File "C:\Users\prath\PycharmProjects\Assignment_5b_PrathyushJ\Assignment_5b_PrathyushJ.py", line 603, in add_hidden_layer
-    DoublyLinkedList.add_to_head(hidden_layer)
-TypeError: add_to_head() missing 1 required positional argument: 'data'
-
-Process finished with exit code 1
-
-
-"""
