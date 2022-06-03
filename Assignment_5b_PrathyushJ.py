@@ -1,9 +1,3 @@
-"""
-assignment #5b by
-    Prathyush Jonnalagadda
-    8/3/20
-    Finalizing Neural Network
-"""
 import numpy as np
 from enum import Enum, auto
 from collections import deque
