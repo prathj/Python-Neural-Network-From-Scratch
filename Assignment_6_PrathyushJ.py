@@ -1,9 +1,3 @@
-"""
-assignment #6
-    by Prathyush Jonnalagadda
-    8/6/2020
-    JSON
-"""
 import json
 import collections
 import numpy
@@ -68,18 +62,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# Sample Output:
-#
-# Traceback (most recent call last):
-#   File "C:/Users/prath/PycharmProjects/Assignment_6_PrathyushJ/Assignment_6_PrathyushJ.py", line 50, in <module>
-#     json.dump(NNData, f, cls=MultiTypeEncoder)
-#   File "C:\Users\prath\AppData\Local\Programs\Python\Python38-32\lib\json\__init__.py", line 179, in dump
-#     for chunk in iterable:
-#   File "C:\Users\prath\AppData\Local\Programs\Python\Python38-32\lib\json\encoder.py", line 438, in _iterencode
-#     o = _default(o)
-#   File "C:/Users/prath/PycharmProjects/Assignment_6_PrathyushJ/Assignment_6_PrathyushJ.py", line 24, in default
-#     json.JSONEncoder.default(o)  # Hi Professor Reed, no matter how much I try editing my code, it always gives
-# TypeError: default() missing 1 required positional argument: 'o'
-#
-# Process finished with exit code 1
